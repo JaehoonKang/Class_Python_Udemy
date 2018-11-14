@@ -1,5 +1,6 @@
+# Class (Noun)
 class Employee:
-    #Attribute (Adjective)
+    #Attribute (Adjective) - Class
 
     name = "Ben"
     designation = "Sales Executive"
@@ -18,6 +19,12 @@ def main():
 
     employeeOne = Employee()
     print(employeeOne.name)
+
+    employeeTwo = Employee()
+
+    # Instance Attribute
+    employeeTwo.name = 'John'
+    print(employeeTwo.name)
 
     
 main()
